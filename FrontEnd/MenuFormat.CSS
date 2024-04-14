@@ -1,0 +1,57 @@
+button {
+    padding: 10px 20px;
+    background-color: #484848;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover    
+{
+    background-color: #4f4f4f;
+}
+
+button:focus 
+{
+    outline: none;
+}
+
+h1
+{
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center; /* Added to center the content */
+}
+
+input {
+    padding: 10px 20px;
+    background-color: #484848;
+    color: #fff; /* Updated to white */
+    border: #0056b3;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+input:hover {
+    background-color: #4f4f4f;
+}
+
+input:focus {
+    outline: none;
+}
+
+label
+{
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+}

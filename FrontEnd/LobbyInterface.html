@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lobby Interface</title>
+        <link rel="stylesheet" href="MenuFormat.CSS">
+    </head>
+    <body>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <div>
+            <button type="submit" value="Login" formaction="GameSelection.html" form="loginForm"> Login</button>
+        </div> 
+        <form id="loginForm" action="GameSelection.html">
+            <input type="hidden" name="password" value="" id="hiddenPassword">
+        </form>
+
+        <div>
+            <a href = "StartPage.html" target="_blank">
+                <button>Create Lobby</button>
+            </a>
+        </div>
+    </body>
+</html>
